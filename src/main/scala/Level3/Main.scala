@@ -6,7 +6,7 @@ import org.apache.pekko.actor.typed.ActorSystem
  *
  * Task:
  * Create an actor that maintains a counter and increments it 
- * each time it receives an Increment message. Print the updated value.
+ * each time it receives an Increment or Decrement message. Print the updated value.
  */
 
 object Main extends App{
@@ -14,4 +14,6 @@ object Main extends App{
   
   system ! Increment
   system ! Increment
+  system ! Decrement
+ 
 }

@@ -10,6 +10,9 @@ object CounterActor {
     case Increment =>
       println(s"Contatore: ${count + 1}")
       CounterActor(count + 1)
+    case Decrement =>
+      println(s"Contatore: ${count - 1}")
+      CounterActor(count - 1)
   }
   
 }
