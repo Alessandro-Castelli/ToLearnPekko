@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85363464-79b7-4df1-b51a-418625f7ade6" name="Changes" comment="Level 5">
+    <list default="true" id="85363464-79b7-4df1-b51a-418625f7ade6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/ChatProtocol.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/ChatRoom.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/UserSession.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Level5/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Level5/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +81,7 @@
     "Application.Level3.Main.executor": "Run",
     "Application.Level4.Main.executor": "Run",
     "Application.Level5.Main.executor": "Run",
+    "Application.Level6.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -83,7 +89,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/scala",
+    "last_opened_file_path": "C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/scala/Level6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,19 +97,20 @@
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/Scala/src/Main.java",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "sbt.project.settings.configurable",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CASTE732\Desktop\Learning Pekko\ToLearnPekko\src\main\scala\Level6" />
       <recent name="C:\Users\CASTE732\Desktop\Learning Pekko\ToLearnPekko\src\main\scala" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\CASTE732\Desktop\Learning Pekko\ToLearnPekko\src\main\Scala\src\Level1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Level5.Main">
+  <component name="RunManager" selected="Application.Level6.Main">
     <configuration name="Level2.Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Level2.Main" />
       <module name="ToLearnPekko.main" />
@@ -157,20 +164,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Level6.Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Level6.Main" />
       <module name="ToLearnPekko.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ToLearnPekko" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ToLearnPekko" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Level6.Main" />
         <item itemvalue="Application.Level5.Main" />
         <item itemvalue="Application.Level4.Main" />
         <item itemvalue="Application.Level2.Main" />
         <item itemvalue="Application.Level3.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

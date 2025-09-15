@@ -1,14 +1,15 @@
-package Level5
+package Level6
 
-import scala.concurrent.duration._
-import Level5.ChatProtocol.SendPrivateMessage
+import Level6.ChatProtocol.{SendMessage, SendPrivateMessage}
 import org.apache.pekko.actor.typed.ActorSystem
+
 import scala.concurrent.ExecutionContext
+import scala.concurrent.duration.*
 
 
 /**
  * Main entry point for a simple broadcast ChatRoom using Pekko Typed.
- * This sets up the ChatRoom actor and two user sessions: Alice and Bob. (NO BROADCAST)
+ * This sets up the ChatRoom actor and two user sessions: Alice and Bob. (NO BROADCAST, with bad words)
  */
 object Main extends App {
 
@@ -26,7 +27,8 @@ object Main extends App {
   system.scheduler.scheduleOnce(3.seconds, new Runnable {
     override def run(): Unit = {
       system ! SendPrivateMessage("Alice", "Bob", "Ciao Bob, sono Alice")
+      system ! SendMessage("Alice", "Poste Italiane son mitiche")
     }
-  })
-  
+   }
+  )
 }
