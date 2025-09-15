@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="ToLearnPekko,ToLearnPekko.main,ToLearnPekko.test,tolearnpekko_3389,tolearnpekko_3389.main,tolearnpekko_3389.test" />
+  </component>
+</project>
