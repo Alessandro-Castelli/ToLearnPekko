@@ -1,11 +1,9 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
-ThisBuild / scalaVersion := "3.3.6"
+name := "ToLearnPekko"
+version := "0.1.0"
+scalaVersion := "3.3.6"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "ToLearnPekko",
-    version := "0.1.0", // Qui puoi mantenere la versione che vuoi per il progetto specifico
-    scalaVersion := "3.3.6", // Puoi usare direttamente la versione di Scala qui
     libraryDependencies ++= Seq(
       "org.apache.pekko" %% "pekko-actor-typed" % "1.0.1",
       "org.apache.pekko" %% "pekko-cluster-typed" % "1.0.1",
