@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85363464-79b7-4df1-b51a-418625f7ade6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/ChatProtocol.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/ChatRoom.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level6/UserSession.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level7/Calculator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level7/Client.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level7/Command.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Level7/Main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Level5/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Level5/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,34 +73,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloWorld.executor": "Run",
-    "Application.Level1.Main.executor": "Run",
-    "Application.Level2.Main.executor": "Run",
-    "Application.Level3.Main.executor": "Run",
-    "Application.Level4.Main.executor": "Run",
-    "Application.Level5.Main.executor": "Run",
-    "Application.Level6.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/scala/Level6",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/Scala/src/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level3.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level4.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level5.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Level6.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/scala/Level6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/Scala/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CASTE732\Desktop\Learning Pekko\ToLearnPekko\src\main\scala\Level6" />
@@ -110,27 +110,13 @@
       <recent name="C:\Users\CASTE732\Desktop\Learning Pekko\ToLearnPekko\src\main\Scala\src\Level1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Level6.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Level2.Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Level2.Main" />
       <module name="ToLearnPekko.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Level2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Level3.Main" type="Application" factoryName="Application" temporary="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Level3.Main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Level3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,24 +163,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ToLearnPekko" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Level7.Main" />
+      <module name="ToLearnPekko.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Level7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ToLearnPekko" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Level6.Main" />
         <item itemvalue="Application.Level5.Main" />
         <item itemvalue="Application.Level4.Main" />
         <item itemvalue="Application.Level2.Main" />
-        <item itemvalue="Application.Level3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +212,7 @@
       <workItem from="1757919850761" duration="593000" />
       <workItem from="1757920721689" duration="851000" />
       <workItem from="1757921649085" duration="7641000" />
+      <workItem from="1758014219218" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
