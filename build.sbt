@@ -14,7 +14,8 @@ lazy val root = (project in file("."))
       "ch.qos.logback" % "logback-classic" % "1.4.11",
       "org.apache.pekko" %% "pekko-stream" % "1.0.1",
 
-      "org.apache.pekko" %% "pekko-actor-testkit-typed" % "1.0.1" % Test
+      "org.apache.pekko" %% "pekko-actor-testkit-typed" % "1.0.1" % Test,
+      "org.scalatest" %% "scalatest" % "3.2.9" % Test
     )
   )
 
