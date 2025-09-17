@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85363464-79b7-4df1-b51a-418625f7ade6" name="Changes" comment="Level7">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level10/HttpServer.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level10/JsonFormat.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level10/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level10/Messaggi.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level10/SpettacoloAttore.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level10/TeatroAttore.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level10/UtenteAttore.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level8/Command.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level8/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level8/Router.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level8/Worker.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level9/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level9/Router.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level9/Worker.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Level9/application.config" afterDir="false" />
+    <list default="true" id="85363464-79b7-4df1-b51a-418625f7ade6" name="Changes" comment="Level 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Level10/HttpServer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Level10/HttpServer.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Level4" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,37 +78,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level1.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level10.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level2.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level3.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level4.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level5.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level6.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level8.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Level9.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/Scala/src/Main.java&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloWorld.executor": "Run",
+    "Application.Level1.Main.executor": "Run",
+    "Application.Level10.Main.executor": "Run",
+    "Application.Level2.Main.executor": "Run",
+    "Application.Level3.Main.executor": "Run",
+    "Application.Level4.Main.executor": "Run",
+    "Application.Level5.Main.executor": "Run",
+    "Application.Level6.Main.executor": "Run",
+    "Application.Level8.Main.executor": "Run",
+    "Application.Level9.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Level10",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/CASTE732/Desktop/Learning Pekko/ToLearnPekko/src/main/Scala/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\CASTE732\Desktop\Learning Pekko\ToLearnPekko\src\main\scala\Level6" />
@@ -238,7 +223,7 @@
       <workItem from="1758014219218" duration="10779000" />
       <workItem from="1758031564025" duration="1913000" />
       <workItem from="1758091286176" duration="7887000" />
-      <workItem from="1758100393380" duration="895000" />
+      <workItem from="1758100393380" duration="1608000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -336,7 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758014742994</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Aggiornamenti">
+      <option name="closed" value="true" />
+      <created>1758101556809</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1758101556809</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Level 10">
+      <option name="closed" value="true" />
+      <created>1758101608284</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1758101608284</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +368,8 @@
     <MESSAGE value="level 4" />
     <MESSAGE value="Level 5" />
     <MESSAGE value="Level7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level7" />
+    <MESSAGE value="Aggiornamenti" />
+    <MESSAGE value="Level 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level 10" />
   </component>
 </project>

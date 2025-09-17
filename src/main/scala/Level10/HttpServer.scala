@@ -1,8 +1,8 @@
 package Level10
 
 import org.apache.pekko.http.scaladsl.Http
-import org.apache.pekko.http.scaladsl.server.Directives._ // Contiene tutti i costrutti per definire Route
-import org.apache.pekko.http.scaladsl.model.StatusCodes
+import org.apache.pekko.http.scaladsl.server.Directives._ // Contiene tutti i costrutti per definire Route, tipo get, post, path ecc
+import org.apache.pekko.http.scaladsl.model.StatusCodes // Codici HTTP
 import org.apache.pekko.actor.typed.ActorSystem
 import org.apache.pekko.actor.typed.scaladsl.AskPattern._
 import scala.concurrent.duration._
@@ -23,7 +23,7 @@ object HttpServer {
         concat(
           path("spettacoli") {
             get {
-              val fut = teatro.ask[TeatroResponse](ListaSpettacoli)
+              val fut = teatro.ask[TeatroResponse](ListaSpettacoli) // Invia messaggio ListaSpettacoli all'attore teatro
               onComplete(fut) {
                 case Success(res: ListaSpettacoliRes) => complete(res)
                 case Success(err: Errore) => complete(StatusCodes.BadRequest, err)
