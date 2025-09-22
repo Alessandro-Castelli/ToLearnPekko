@@ -13,6 +13,13 @@ object SpettacoloAttore {
           var prenotazioni = List.empty[String]
 
           Behaviors.receiveMessage {
+            case CancellaPosto(utente, replyTo) =>
+              if(postiDisponibili > 0){
+                postiDisponibili = postiDisponibili -1
+                prenotazioni = prenotazioni.filterNot(_ == utente)
+                replyTo ! PrenotazioneEliminata(nome, utente)
+              }
+              Behaviors.same
             case PrenotaPosto(utente, replyTo) =>
               if (postiDisponibili > 0) {
                 prenotazioni = utente :: prenotazioni

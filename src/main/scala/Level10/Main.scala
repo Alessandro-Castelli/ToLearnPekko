@@ -67,7 +67,7 @@ FLUSSO DEL PROGRAMMA:
 
 object Main extends App {
   // Creo l'ActorSystem principale
-  val teatroSystem: ActorSystem[TeatroCommand] = ActorSystem(TeatroAttore(), "TeatroSystem")
+  private val teatroSystem: ActorSystem[TeatroCommand] = ActorSystem(TeatroAttore(), "TeatroSystem")
 
   // Creo alcuni spettacoli di esempio
   teatroSystem ! CreaSpettacolo("Amleto", 5, teatroSystem.ignoreRef)

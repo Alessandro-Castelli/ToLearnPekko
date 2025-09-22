@@ -26,7 +26,6 @@ object TeatroAttore {
           Behaviors.same
 
         case ListaSpettacoli(replyTo) =>
-
           replyTo ! ListaSpettacoliRes(spettacoli.keys.toList)
           Behaviors.same
 
@@ -39,6 +38,13 @@ object TeatroAttore {
           }
           Behaviors.same
 
+        case CancellaPrenotazione(nomeSpettacolo, utente, replyTo) =>
+          spettacoli.get(nomeSpettacolo) match {
+            case Some(spettacoloRef) =>
+              spettacoloRef ! CancellaPosto(utente, replyTo)
+          }
+          Behaviors.same
+          
         case DettagliSpettacolo(nomeSpettacolo, replyTo) =>
           spettacoli.get(nomeSpettacolo) match {
             case Some(spettacoloRef) => spettacoloRef ! GetDettagli(replyTo)

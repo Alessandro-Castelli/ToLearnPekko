@@ -23,7 +23,7 @@ object HttpServer {
         concat(
           path("spettacoli") {
             get {
-              val fut = teatro.ask[TeatroResponse](ListaSpettacoli) // Invia messaggio ListaSpettacoli all'attore teatro
+              val fut = teatro.ask[TeatroResponse](replyTo => ListaSpettacoli(replyTo)) // Invia messaggio ListaSpettacoli all'attore teatro
               onComplete(fut) {
                 case Success(res: ListaSpettacoliRes) => complete(res)
                 case Success(err: Errore) => complete(StatusCodes.BadRequest, err)
