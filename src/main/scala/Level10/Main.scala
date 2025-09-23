@@ -81,4 +81,6 @@ object Main extends App {
 
   // Avvio il server HTTP
   HttpServer.start(teatroSystem)
+  println("Server HTTP avviato. Premi un tasto per terminare.")
+  scala.io.StdIn.readLine() 
 }
